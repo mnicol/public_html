@@ -1,0 +1,178 @@
+/*Main import for pages to format them all with a similar base*/
+
+body
+{
+  font-family: "Tahoma" , Geneva, sans-serif;
+  background-color: #B20000;
+}
+#bottomContacts
+{
+
+}
+.currentPage
+{
+  background-color: #B20000;
+}
+
+h1
+{
+  color: #3D3D3D;
+}
+/*Inner white box as a frame*/
+.formatBody
+{
+  display: block;
+  margin-left: 5%;
+  margin-right: 5%;
+  /*width: 90%;*/
+  background: #F2F2F2;
+
+  border-radius: 5px 5px 5px 5px; 
+  /*-moz-border-radius: 5px 5px 5px 5px; */
+  /*-webkit-border-radius: 5px 5px 5px 5px; */
+  /*border: 2px outset #B20000;*/
+  box-shadow: 1px 1px 4px #4A4A4A;
+}
+/*inside the box invisible box for spacing*/
+.innerBody
+{
+  position: relative;
+  left: 15px;
+  top: 15px;
+}
+.titleBar
+{
+  display: block;
+  /*background-color: rgba(240, 240, 240, 1);*/
+}
+.topBlock
+{
+  display: block;
+  
+  height: 10%;
+  background: #959595;
+}
+.ulHeader
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.liHeader
+{
+  float: left;
+}
+/* unvisited link */
+.aClass:link    {
+    color: black;
+}
+/* visited link */
+.aClass:visited {
+    color: black;
+}
+/* mouse over link */
+.aClass:hover   {
+    color: blue;
+}
+/* selected link */
+.aClass:active  {
+    color: yellow;
+}
+.aTitle
+{
+  display: block;
+}
+.aTitle:link, .aTitle:visited 
+{
+  display: block;
+  width: 125px;
+  font-weight: bold;
+  /*color: #FFFFFF;*/
+  /*background-color: rgba(240, 240, 240, 1);*/
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.aTitle:hover, .aTitle:active 
+{
+  background-color: #B20000;
+}
+.globalBackground
+{
+  /*background:url(bgnoise_lg.png) repeat left top;*/
+  background: #CCCCCC;
+}
+.smallHeader
+{
+    display: block;
+    background: #E60000;
+    color: white;
+ /* border-radius: 50px 5px 0px 0px; 
+  -moz-border-radius: 5px 5px 0px 0px; 
+  -webkit-border-radius: 5px 5px 0px 0px;*/ 
+  
+ /* border-top: 2px outset #B20000;
+  border-left: 2px outset #B20000;
+  border-right: 2px outset #B20000;
+  border-bottom: none;*/
+ /* box-shadow: 0px 0px 5px #888888;*/
+}
+.mainHeader
+{
+  border-radius: 1px 1px 0px 0px; 
+  -moz-border-radius: 1px 1px 0px 0px; 
+  -webkit-border-radius: 1px 1px 0px 0px; 
+
+  border-right: 0px inset #B20000;
+  border-top: 0px inset #B20000;
+  border-left: 0px inset #B20000;
+  border-bottom: 0px inset #B20000;
+}
+
+p
+{
+  /*height: 15%;*/
+  width: 40%;
+  background-color: rgba(240, 240, 240, 1);
+
+  border-radius: 5px 5px 5px 5px; 
+  -moz-border-radius: 5px 5px 5px 5px; 
+  -webkit-border-radius: 5px 5px 5px 5px; 
+  border: 2px outset rgba(230, 230, 230, 1);
+
+  box-shadow: 0px 0px 5px #888888;
+}
+
+.divBlocks
+{
+  display: block;
+  width: 40%;
+  background: #F0F0F0;
+
+ /* border-radius: 0px 0px 5px 5px;*/
+ /* border-top: none;
+  border-left: 2px outset #888888;
+  border-right: 2px outset #888888;
+  border-bottom: 2px outset #888888;*/
+   box-shadow: 1px 1px 5px #888888;
+}
+
+#mainHeader
+{
+  position: absolute;
+  top: -5px;
+  left: 30px;
+}
+#contactInfo
+{
+  position: right;
+}
+.bottomLine
+{
+  display: block;
+  
+  height: 2px;
+  background: #959595;
+}

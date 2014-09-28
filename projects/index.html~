@@ -1,0 +1,259 @@
+<html>
+
+<title>Matt Nicol's Homepage</title>
+
+<link href="http://code.jquery.com/ui/1.11.1/themes/blitzer/jquery-ui.css" rel="stylesheet">
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+
+<head>
+  <style>
+
+
+  body
+  {
+    font-family: "Tahoma" , Geneva, sans-serif;
+  }
+
+  #bottomContacts
+  {
+
+  }
+
+  h1
+  {
+    color: #3D3D3D;
+  }
+
+
+    /*Inner white box as a frame*/
+    .formatBody
+    {
+      display: block;
+      margin-left: 5%;
+      margin-right: 5%;
+      /*width: 90%;*/
+      background: #F2F2F2;
+
+      border-radius: 5px 5px 5px 5px; 
+      /*-moz-border-radius: 5px 5px 5px 5px; */
+      /*-webkit-border-radius: 5px 5px 5px 5px; */
+      /*border: 2px outset #B20000;*/
+      box-shadow: 1px 1px 4px #4A4A4A;
+    }
+
+    /*inside the box invisible box for spacing*/
+    .innerBody
+    {
+      position: relative;
+      left: 15px;
+      top: 15px;
+    }
+
+    .titleBar
+    {
+      display: block;
+      /*background-color: rgba(240, 240, 240, 1);*/
+    }
+
+    .topBlock
+    {
+      display: block;
+      
+      height: 10%;
+      background: #959595;
+    }
+
+    .ulHeader
+    {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .liHeader
+    {
+      float: left;
+    }
+
+
+    /* unvisited link */
+    .aClass:link    {
+        color: black;
+    }
+
+    /* visited link */
+    .aClass:visited {
+        color: black;
+    }
+
+    /* mouse over link */
+    .aClass:hover   {
+        color: blue;
+    }
+
+    /* selected link */
+    .aClass:active  {
+        color: yellow;
+    }
+
+    .aTitle
+    {
+      display: block;
+    }
+
+   .aTitle:link, .aTitle:visited 
+   {
+      display: block;
+      width: 125px;
+      font-weight: bold;
+      /*color: #FFFFFF;*/
+      /*background-color: rgba(240, 240, 240, 1);*/
+      text-align: center;
+      padding: 4px;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    .aTitle:hover, .aTitle:active 
+    {
+      background-color: #B20000;
+    }
+
+    .globalBackground
+    {
+      /*background:url(bgnoise_lg.png) repeat left top;*/
+      background: #CCCCCC;
+    }
+
+    .smallHeader
+    {
+      width: 40%;
+      border-radius: 5px 5px 5px 5px; 
+      -moz-border-radius: 5px 5px 5px 5px; 
+      -webkit-border-radius: 5px 5px 5px 5px; 
+      border: 2px outset #B20000;
+      box-shadow: 0px 0px 5px #888888;
+    }
+
+    .mainHeader
+    {
+      border-radius: 1px 1px 0px 0px; 
+      -moz-border-radius: 1px 1px 0px 0px; 
+      -webkit-border-radius: 1px 1px 0px 0px; 
+
+      border-right: 0px inset #B20000;
+      border-top: 0px inset #B20000;
+      border-left: 0px inset #B20000;
+      border-bottom: 0px inset #B20000;
+
+    }
+
+    p
+    {
+      height: 15%;
+      width: 40%;
+      background-color: rgba(240, 240, 240, 1);
+
+      border-radius: 5px 5px 5px 5px; 
+      -moz-border-radius: 5px 5px 5px 5px; 
+      -webkit-border-radius: 5px 5px 5px 5px; 
+      border: 2px outset rgba(230, 230, 230, 1);
+
+      box-shadow: 0px 0px 5px #888888;
+    }
+
+    #mainHeader
+    {
+      position: absolute;
+      top: 1px;
+      left: 30px;
+    }
+
+    #contactInfo
+    {
+      position: right;
+    }
+
+    .bottomLine
+    {
+      display: block;
+      
+      height: 2px;
+      background: #959595;
+    }
+
+
+    </style>
+
+  <script>
+    
+  </script>
+
+
+  
+
+</head>
+
+
+
+<body class="globalBackground">
+
+
+<a name="topMainAnchor"></a>
+<div class="topBlock">
+  <h1 id="mainHeader">Matt Nicol</h1>
+</div>
+
+<div class="titleBar ui-widget-header mainHeader">
+  <ul class="ui-widget-header mainHeader ulHeader">
+    <li class="liHeader"><a class="aTitle" href="#mainPage">Home</a></li>
+    <li class="liHeader"><a class="aTitle" href="./aboutMe/">About&nbsp;Me</a></li>
+    <!-- <li><a href="./contact/">Contact</a></li> -->
+    <li class="liHeader"><a class="aTitle" href="./projects/">Projects</a></li>
+    <li class="liHeader"><a class="aTitle" href="./workExperience/">Experience</a></li>
+  </ul>
+</div>
+
+
+<div id="mainPage" class="formatBody">
+  <div class="innerBody">
+ 
+
+
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  </div>
+</div>
+
+<br/>
+<br/>
+
+<!-- bottom of page info and links -->
+<div class="bottomLine"></div>
+<br/>
+
+<span id="bottomContacts">
+Contact: E: mnicol@wisc.edu C: 715-563-3575 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>
+
+<a href="#topMainAnchor">Home</a> |
+<a href="./aboutMe/">About&nbsp;Me</a> |
+    <!-- <li><a href="./contact/">Contact</a></li> -->
+<a href="./projects/">Projects</a> |
+<a href="./workExperience/">Experience</a>
+
+
+</body>
+
+
+
+<script type="text/javascript">
+
+
+</script>
+
+</html>
